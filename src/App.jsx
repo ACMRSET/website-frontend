@@ -1,9 +1,9 @@
-
+import Home from "./components/home/Home"
 function App() {
 
     return (
         <>
-            <h1 className="font-thin">Acm Web</h1>
+            <Home />
         </>
     )
 }
