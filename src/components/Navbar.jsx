@@ -3,11 +3,10 @@ import logo from './../assets/logo.png'
 
 const Navbar = () => {
 
-    //
 
     return (
 
-        <nav className="flex justify-between bg-black text-white items-center p-2 overflow-x-hidden">
+        <nav className="flex justify-between bg-black text-white items-center p-2 overflow-x-hidden fixed z-50 w-full top-0 h-[182px]">
 
             <div className='flex shrink-0 items-center max-w-screen-xl '>
                 <a><img src={logo} alt='looogo' width={142} height={134} className="" /></a>

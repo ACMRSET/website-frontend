@@ -2,7 +2,7 @@ import Navbar from '../Navbar'
 import { Hero } from './Hero'
 import { MainContent } from './MainContent'
 
-const home = () => {
+export const Home = () => {
     return (
         <>
             <Navbar />
@@ -11,5 +11,3 @@ const home = () => {
         </>
     )
 }
-
-export default home
