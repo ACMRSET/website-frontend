@@ -1,9 +1,11 @@
 
-import React from 'react'
 import Navbar from '../Navbar'
 const home = () => {
     return (
-        <div>Acm web</div>
+        <>
+            <Navbar />
+            <div>Acm web</div>
+        </>
     )
 }
 
