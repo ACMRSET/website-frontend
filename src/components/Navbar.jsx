@@ -7,7 +7,7 @@ const Navbar = () => {
 
     return (
 
-        <nav className="flex justify-between bg-black text-white items-center p-2 ">
+        <nav className="flex justify-between bg-black text-white items-center p-2 overflow-x-hidden">
 
             <div className='flex shrink-0 items-center max-w-screen-xl '>
                 <a><img src={logo} alt='looogo' width={142} height={134} className="" /></a>
