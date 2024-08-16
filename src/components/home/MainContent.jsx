@@ -7,7 +7,7 @@ export const MainContent = () => {
             </div>
             <div className="lg:flex space-x-16 mt-6">
                 <div className="w-[50%] order-2 m-10"><img src={image1} alt="Lab-image" className="w-full"></img></div>
-                <p className="text-white mt-3 text-justify text-3xl font-light w-1/2 min-w-48 order-1">Welcome to the Rajagiri School of Engineering and Technology (RSET) Chapter of the Association for Computing Machinery (ACM)!
+                <p className="text-white mt-3 text-justify text-3xl font-light w-1/2 min-w-48 order-1 ">Welcome to the Rajagiri School of Engineering and Technology (RSET) Chapter of the Association for Computing Machinery (ACM)!
                     <br></br>
                     <br></br>
                     We're a dynamic community of students and faculty passionate about computing and innovation. At RSET ACM, we host workshops, hackathons, and events to enhance technical skills, foster creativity, and prepare members for successful careers in technology.

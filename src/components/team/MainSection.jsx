@@ -23,7 +23,7 @@ export const MainSection = () => {
             <br />
 
             <h1 >Faculty Coordinators</h1>
-            <div className="flex space-x-12 justify-center">
+            <div className="flex space-x-32 justify-center">
                 <TeamCard imurl={teamlist[0].src} name={teamlist[0].name} position={teamlist[0].position} />
                 <TeamCard imurl={teamlist[0].src} name={teamlist[0].name} position={teamlist[0].position} />
             </div>
@@ -31,22 +31,22 @@ export const MainSection = () => {
             <br />
             <br />
             <h1 >Execom Members</h1>
-            <div className="flex space-x-12 justify-center">
+            <div className="flex space-x-32 justify-center">
                 <TeamCard imurl={teamlist[0].src} name={teamlist[0].name} position={teamlist[0].position} />
                 <TeamCard imurl={teamlist[1].src} name={teamlist[1].name} position={teamlist[1].position} />
             </div>
             <br />
-            <div className="flex space-x-12 justify-center">
+            <div className="flex space-x-32 justify-center">
                 <TeamCard imurl={teamlist[2].src} name={teamlist[2].name} position={teamlist[2].position} />
             </div>
             <br />
-            <div className="flex space-x-12 justify-center">
+            <div className="flex space-x-32 justify-center">
                 <TeamCard imurl={teamlist[3].src} name={teamlist[3].name} position={teamlist[3].position} />
                 <TeamCard imurl={teamlist[4].src} name={teamlist[4].name} position={teamlist[4].position} />
             </div>
             <br />
 
-            <div className="flex space-x-12 justify-center">
+            <div className="flex space-x-32 justify-center">
                 <TeamCard imurl={teamlist[5].src} name={teamlist[5].name} position={teamlist[5].position} />
             </div>
 

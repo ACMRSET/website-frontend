@@ -1,10 +1,11 @@
 import Navbar from "../Navbar"
+import SecondHero from "../SecondHero"
 
 export const Events = () => {
     return (
         <div>
             <Navbar />
-            Events
+            <SecondHero text={"EVENTS"}></SecondHero>
 
         </div>
     )

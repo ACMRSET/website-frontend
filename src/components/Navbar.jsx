@@ -16,7 +16,7 @@ const Navbar = () => {
                 </div>
             </div>
 
-            <ul className="list-none p-0 m-0 flex gap-4 text-3xl mr-5 space-x-2 font-semibold">
+            <ul className="list-none p-0 m-0 flex gap-4 text-xl mr-5 space-x-2 font-semibold flex-wrap ">
                 <li className=' hover:text-cyan-600'>
                     <a href='/home'>HOME</a>
                 </li>
