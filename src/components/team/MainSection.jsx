@@ -6,16 +6,18 @@ import gautham from "./../../assets/team/gautham.jpg"
 import niveditha from "./../../assets/team/niveditha.jpg"
 import kevin from "./../../assets/team/kevin.jpg"
 import hrithika from "./../../assets/team/hrithika.jpg"
-
+import nodal from "./../../assets/team/nodal.jpg"
 export const MainSection = () => {
 
     const teamlist = [
+        
         { name: "Nikhil Stephen", position: "Chair", src: nikhil },
         { name: "Rachel Jacob", position: " Vice-Chair", src: rachel },
         { name: "Gautham C Sudheer", position: "Secretary", src: gautham },
         { name: "Niveditha B", position: "Joint Secretary", src: niveditha },
         { name: "Kevin Jacob", position: "Joint Secretary", src: kevin },
-        { name: "Hrithika Harish", position: "Treasurer", src: hrithika }
+        { name: "Hrithika Harish", position: "Treasurer", src: hrithika },
+        {name:"Faculty", position:"Nodal Officer",src:nodal}
     ]
 
     return (
@@ -24,8 +26,8 @@ export const MainSection = () => {
 
             <h1 >Faculty Coordinators</h1>
             <div className="flex space-x-32 justify-center">
-                <TeamCard imurl={teamlist[0].src} name={teamlist[0].name} position={teamlist[0].position} />
-                <TeamCard imurl={teamlist[0].src} name={teamlist[0].name} position={teamlist[0].position} />
+                <TeamCard imurl={teamlist[6].src} name={teamlist[6].name} position={teamlist[6].position} />
+                <TeamCard imurl={teamlist[6].src} name={teamlist[6].name} position={teamlist[6].position} />
             </div>
 
             <br />

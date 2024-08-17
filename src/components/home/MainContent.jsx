@@ -2,8 +2,11 @@ import image1 from "./../../assets/home-about-img.png"
 export const MainContent = () => {
     return (
         <div className="bg-black p-10 relative z-20">
+            <div className="flex w-1/2 align-middle">
             <div className="bg-slate-300 ml-10 w-60 h-10 rounded-full">
                 <h1 className=" text-cyan-700 font-semibold text-xl text-center pt-1">ABOUT ACM RSET</h1>
+            </div>
+                <a className="text-cyan-400 ml-16 font-semibold" href="https://services.acm.org/public/qj/quickjoin/qj_control.cfm?promo=PWEBTOP&form_type=Student" target="_blank"><span className="align-middle">JOIN ACM</span></a>
             </div>
             <div className="lg:flex space-x-16 mt-6">
                 <div className="w-[50%] order-2 m-10"><img src={image1} alt="Lab-image" className="w-full"></img></div>
@@ -16,7 +19,7 @@ export const MainContent = () => {
                     Whether you're new to computing or a pro, join us to learn, connect, and grow in the tech world!</p>
             </div>
             <div className="mt-6">
-                <a className="font-semibold text-xl text-cyan-400 ml-10">LEARN MORE ABOUT US</a>
+                <a href="https://www.acm.org/about-acm/about-the-acm-organization" target="_blank" className="font-semibold text-xl text-cyan-400 ml-16">LEARN MORE ABOUT ACM</a>
             </div>
         </div>
     )

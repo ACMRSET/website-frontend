@@ -9,7 +9,7 @@ const Navbar = () => {
         <nav className="flex justify-between bg-black text-white items-center p-2 overflow-x-hidden fixed z-50 w-full top-0 h-[130px]">
 
             <div className='flex shrink-0 items-center max-w-screen-xl '>
-                <a><img src={logo} alt='looogo' width={110} height={100} className="" /></a>
+                <a href="https://www.acm.org/" target="_blank"><img src={logo} alt='looogo' width={110} height={100} className="" /></a>
                 <div className='text-2xl mx-4 font-semibold '>
                     <p>Association for </p>
                     <p>Computing Machinery </p>
