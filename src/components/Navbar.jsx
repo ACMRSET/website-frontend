@@ -29,7 +29,7 @@ const Navbar = () => {
                 </li >
 
                 <li className=' hover:text-cyan-600'>
-                    <a href='/team'>TEAMS</a>
+                    <a href='/team'>TEAM</a>
                 </li>
                 <li className=' hover:text-cyan-600'>
                     <a href='/contact'>CONTACT</a>
