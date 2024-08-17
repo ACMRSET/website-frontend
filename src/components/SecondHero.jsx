@@ -1,4 +1,4 @@
-import design from "./../assets/desing.jpg"
+import design from "./../assets/ndesing.png"
 const SecondHero = (props) => {
     return (
         <div style={{ backgroundImage: `url(${design}) ` }}
