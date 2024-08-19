@@ -60,7 +60,7 @@ const Navbar = () => {
 
             </nav>
             {
-                open && (<div className='md:hidden z-40 items-center mb-3'>
+                open && (<div className='md:hidden z-40 items-center mb-3 fixed bg-black w-full'>
 
                     <ul className="list-none p-0 m-0 grid-cols-1 justify-center gap-4 text-xl mr-5 space-x-2 font-semibold flex-wrap text-white">
                         <li className=' hover:text-cyan-600 text-center'>
