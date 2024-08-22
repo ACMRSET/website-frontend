@@ -24,14 +24,14 @@ export const MainSection = () => {
         <div className="bg-black items-center text-white text-center font-semibold text-4xl space-y-12 relative z-20 w-full ">
             <br />
 
-            <h1 >Faculty Coordinators</h1>
+            {/* <h1 >Faculty Coordinators</h1>
             <div className="grid grid-cols-1 md:flex md:space-x-32 max-md:space-y-20 items-center justify-items-center justify-center">
                 <TeamCard imurl={teamlist[6].src} name={teamlist[6].name} position={teamlist[6].position} />
                 <TeamCard imurl={teamlist[6].src} name={teamlist[6].name} position={teamlist[6].position} />
-            </div>
+            </div> */}
 
-            <br />
-            <br />
+            {/* <br />
+            <br /> */}
             <h1 >Execom Members</h1>
             <div className="grid grid-cols-1 md:flex md:space-x-32 max-md:space-y-20 items-center justify-items-center justify-center">
                 <TeamCard imurl={teamlist[0].src} name={teamlist[0].name} position={teamlist[0].position} />
