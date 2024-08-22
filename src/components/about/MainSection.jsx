@@ -25,7 +25,7 @@ export const MainSection = () => {
                 ACM will continue to be the premiere global computing society.
             </p>
             <h1 className="mt-20 ml-8 text-3xl md:text-5xl font-bold text-sky-500">Core Values</h1>
-            <div className="max-md:space-y-32 md:space-x-40 mt-20 m-auto md:flex justify-center grid-cols-1">
+            <div className="max-md:space-y-32 md:space-x-40 mt-20 m-auto md:flex justify-center grid grid-cols-1 justify-items-center">
                 <div className="min-w-32 min-h-32 h-60 w-60 max-md:w-36 max-md:h-36">
                     <div className="w-full h-full bg-[rgb(99,137,190)] pt-10">
                         <img src={img3} alt="Technical Excellence" className="h-3/4 w-5/6 m-auto" />
@@ -45,7 +45,7 @@ export const MainSection = () => {
                     <p className="text-white text-base md:text-xl">Ethical Computing and Technology for positive impact</p>
                 </div>
             </div>
-            <div className="min-w-32 min-h-32 h-60 w-60 mt-32 md:mt-32 md:m-auto max-md:w-36 max-md:h-36">
+            <div className="min-w-32 min-h-32 h-60 w-60 mt-32 md:mt-32 md:m-auto max-md:w-36 max-md:h-36 justify-items-center mx-auto">
                 <div className="w-full h-full bg-neutral-700 pt-10">
                     <img src={img6} alt="Diversity Equity Inclusion" className="h-3/4 w-5/6 m-auto" />
                 </div>
