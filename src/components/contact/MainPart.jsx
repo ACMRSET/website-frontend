@@ -25,7 +25,7 @@ export const MainPart = () => {
     return (
         <div className="bg-black p-10 lg:pl-28 relative z-20">
             <h1 className="mt-20 ml-8 text-5xl font-bold text-sky-500">Please contact us</h1>
-            <div className="md:flex flex-col">
+            <div className="md:flex grid-cols-1">
                 <div className="md:w-1/2 flex-wrap w-10/12">
                     <input value={name} onChange={e => setName(e.target.value)} type="text" className="pl-2 ml-8 lg:w-5/12 mt-20 h-10 rounded-lg md:w-full" placeholder=" Name"></input>
                     <input value={email} onChange={e => setEmail(e.target.value)} type="text" className="pl-2 ml-8 lg:w-5/12 md:mt-20 mt-10 h-10 rounded-lg md:w-full" placeholder=" Email"></input>
